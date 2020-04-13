@@ -1,0 +1,89 @@
+/*
+*Author: Hani Tomeh Alali
+*page:form.css
+*Description: formuiler maken voor gegevens
+
+*Revision history
+*0.1           010-04-2020        Hani Tomeh Alali         initial version 
+*/
+
+
+body {
+  background-image: url("imag.jpg");
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1;
+  font-size: 20px;
+}
+form {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.query-form {
+  padding: 25px 25px 25px 25px;
+  max-width: 500px;
+  margin: 50px auto;
+} 
+label {
+  color: blue;
+  font: bold;
+}
+.query-form {
+  transform: scale(0.7);
+  transition: box-shadow 0.5s, transform 0.5s;
+  border: white solid 3px;
+  opacity: 10;
+}
+.query-form input,
+.query-form select,
+.query-form textarea {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 13px;
+  font-family: inherit;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.query-form button[type="submit"] {
+  width: 100%;
+  background-color: #3a9ecc;
+  color:white ;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.query-form .title {
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(53, 51, 51);
+  text-align: center;
+}
+
+#file{
+  width: 95%;
+  height: 35px;
+  background-color: #bee698;
+  color:white ;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.query-form input,
+.query-form select,
+.query-form textarea {
+  background-color: #fff;
+}
+.query-form {
+  background-color:white;
+}
+
+
